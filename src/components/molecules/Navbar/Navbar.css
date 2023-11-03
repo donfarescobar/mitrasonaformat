@@ -1,0 +1,18 @@
+p,
+nav>ul>a,
+.nav-span {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.navbar-shadow {
+  background-color: #FFF;
+  box-shadow: 0px 4px 8px 0px rgba(18, 120, 190, 0.10), 0px 4px 4px 0px rgba(18, 120, 190, 0.12);
+  z-index: 9999999999;
+}
+
+.active-navbar {
+  color: #1F2933;
+  font-weight: 700;
+}
