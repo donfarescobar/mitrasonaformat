@@ -12,6 +12,11 @@ const Nav = () => { //function for navbar without dropdown in production and not
   ];
   const [open, setOpen] = useState(false); 
 
+  const toggleDropdown = () => {
+    setOpen(!open);
+    console.log("Dropdown opened/closed. Open: ", !open);
+  };
+
   return (
     <header className="navbar-shadow">
       <nav className="px-4 py-2 md:px-8 lg:px-12 xl:px-24 md:flex md:justify-between md:items-center">
@@ -23,7 +28,7 @@ const Nav = () => { //function for navbar without dropdown in production and not
               className="w-20 h-20"
             />
           </a>
-          <div onClick={() => setOpen(!open)} className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden">
+          <div onClick={toggleDropdown} className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden">
           <button
             id="mobile-menu-toggle"
             aria-label="mobile-menu-button"
