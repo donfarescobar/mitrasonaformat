@@ -151,7 +151,7 @@ export default function Home() {
                                         </div>
                                         <div>
                                             <a
-                                                href="/general-insurance.html"
+                                                href="/GeneralInsurance"
                                                 className="business-lines-button-text bg-button-banner text-sm md:text-base flex flex-row justify-center items-center w-40 md:w-44 h-10 md:h-12 text-white rounded"
                                             >
                                                 General Info
@@ -179,7 +179,7 @@ export default function Home() {
                                         </div>
                                         <div>
                                             <a
-                                                href="/contractor.html"
+                                                href="/ContractorInsurance"
                                                 className="business-lines-button-text bg-button-banner text-sm md:text-base flex flex-row justify-center items-center w-40 md:w-44 h-10 md:h-12 text-white rounded"
                                             >
                                                 Contractor Info

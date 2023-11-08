@@ -41,11 +41,11 @@ export default function Footer() {
                 <div className="flex flex-col gap-1 md:gap-2 xl:gap-3">
                   <a
                     className="footer-card-text text-sm md:text-base"
-                    href="/general-insurance.html"
+                    href="/GeneralInsurance"
                   >General Insurance</a>
                   <a
                     className="footer-card-text text-sm md:text-base"
-                    href="/contractor.html"
+                    href="/ContractorInsurance"
                   >Contractor Insurance</a>
                 </div>
               </div>
