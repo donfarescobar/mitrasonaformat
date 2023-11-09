@@ -2,114 +2,115 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html,
 body {
-    height: 100%;
+  height: 100%;
 }
 
 h1,
 h2 h3 {
-    font-family: 'Sora';
-    font-style: normal;
-    font-weight: 700;
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 700;
 }
 
 p,
 nav>ul>a,
 .nav-span {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 400;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
 }
 
 .navbar-shadow {
-    background-color: #FFF;
-    box-shadow: 0px 4px 8px 0px rgba(18, 120, 190, 0.10), 0px 4px 4px 0px rgba(18, 120, 190, 0.12);
-    z-index: 9999999999;
+  background-color: #FFF;
+  box-shadow: 0px 4px 8px 0px rgba(18, 120, 190, 0.10), 0px 4px 4px 0px rgba(18, 120, 190, 0.12);
+  z-index: 9999999999;
 }
 
 .hero-heading {
-    font-family: "Sora";
-    font-weight: 700;
-    color: #000
+  font-family: "Sora";
+  font-weight: 700;
+  color: #000
 }
 
 .hero-text {
-    color: #747474;
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 400;
+  color: #747474;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
 }
 
 .hero-button-link {
-    display: inline-block;
-    font-weight: 700;
-    text-decoration: none;
-    color: #fff;
-    border-radius: 6px;
-    background-color: #F79A1F;
+  display: inline-block;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 6px;
+  background-color: #F79A1F;
 }
 
 .active-navbar {
-    color: #1F2933;
-    font-weight: 700;
+  color: #1F2933;
+  font-weight: 700;
 }
 
 #menu a:hover,
 #dropdown-toggle:hover {
-    background-color: #F3F4F6;
-    color: #374151;
+  background-color: #F3F4F6;
+  color: #374151;
 }
 
 /* Add hover:bg and hover:text styles for submenu items */
-#general-insurance-submenu a:hover,
-#contractor-submenu a:hover {
-    background-color: #F3F4F6;
-    color: #374151;
+#dropdown-product a:hover, //for dropdown product on navbar
+ {
+  background-color: #F3F4F6;
+  color: #374151;
 }
 
 .center {
-    text-align: -webkit-center;
+  text-align: -webkit-center;
 }
 
 @keyframes animation {
-    from {
-        opacity: 0;
-        transform: translateY(15px);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
 
-    to {
-        opacity: 1;
-        transform: translateY(0px);
-    }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 .visi-misi-header,
 .business-lines-header,
 .company-partner-header {
-    font-family: "Sora";
-    font-style: normal;
-    font-weight: 700;
-    line-height: 36px;
-    letter-spacing: -0.65px;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.65px;
 }
 
 .visi-subheader,
 .misi-subheader {
-    color: #000;
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 600;
-    line-height: 30px;
-    letter-spacing: -0.48px;
+  color: #000;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.48px;
 }
 
 .visi-detail,
@@ -117,425 +118,425 @@ nav>ul>a,
 .hero-banner-text,
 .footer-menu,
 .contractor-text {
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 400;
-    color: #717171;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  color: #717171;
 }
 
 .visi-misi-description {
-    color: #747474;
-    font-family: Work Sans;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: -0.64px;
+  color: #747474;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.64px;
 }
 
 .bg-button-banner {
-    background: #f79a1f;
+  background: #f79a1f;
 }
 
 .bg-button-banner:hover {
-    background: #EB8A0B;
+  background: #EB8A0B;
 }
 
 .icon-container {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 .svg-size {
-    width: 41px;
-    height: 40px;
+  width: 41px;
+  height: 40px;
 }
 
 
 .max-w-custom-xs {
-    max-width: 10rem;
+  max-width: 10rem;
 }
 
 .container-image-hero {
-    flex-grow: 1;
-    /* Allow the image container to expand vertically to match its content */
-    display: flex;
-    align-items: center;
-    overflow: hidden;
+  flex-grow: 1;
+  /* Allow the image container to expand vertically to match its content */
+  display: flex;
+  align-items: center;
+  overflow: hidden;
 }
 
 .container-image-hero img {
-    max-height: 100%;
-    width: 100%;
+  max-height: 100%;
+  width: 100%;
 }
 
 .gallery-img {
-    object-fit: contain;
-    box-shadow: none;
-    background: none;
-    max-height: 80px;
+  object-fit: contain;
+  box-shadow: none;
+  background: none;
+  max-height: 80px;
 }
 
 .gallery-container-img {
-    width: 170px;
-    height: 80px;
+  width: 170px;
+  height: 80px;
 }
 
 .responsive-iframe-wrapper {
-    z-index: -1;
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
+  z-index: -1;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
 }
 
 .responsive-iframe-wrapper-home {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    /* 16:9 aspect ratio (9 / 16 * 100%) */
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  /* 16:9 aspect ratio (9 / 16 * 100%) */
 }
 
 .responsive-iframe-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .responsive-iframe-home {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .product-card-header {
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 600;
-    line-height: 25px;
-    letter-spacing: -0.48px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: -0.48px;
 }
 
 .product-card-button {
-    color: #F79A1F;
-    text-align: center;
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 600;
-    text-decoration-line: underline;
-    letter-spacing: -1px;
-    text-underline-offset: 0.2em;
+  color: #F79A1F;
+  text-align: center;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  text-decoration-line: underline;
+  letter-spacing: -1px;
+  text-underline-offset: 0.2em;
 }
 
 .product-card-button:hover {
-    color: #EB8A0B;
+  color: #EB8A0B;
 }
 
 .bg-container-business-lines-general-insurance {
-    border-right: 1px solid #FFF;
-    background: linear-gradient(92deg, #1278BE -7.61%, rgba(18, 120, 190, 0.00) 222.72%);
+  border-right: 1px solid #FFF;
+  background: linear-gradient(92deg, #1278BE -7.61%, rgba(18, 120, 190, 0.00) 222.72%);
 }
 
 .bg-container-business-lines {
-    background: linear-gradient(92deg, #1278BE -7.61%, rgba(18, 120, 190, 0.00) 222.72%);
+  background: linear-gradient(92deg, #1278BE -7.61%, rgba(18, 120, 190, 0.00) 222.72%);
 }
 
 @media screen and (max-width: 767px) {
-    .bg-container-business-lines-general-insurance {
-        border-bottom: 1px solid #FFF;
-        background: linear-gradient(92deg, #1278BE -7.61%, rgba(18, 120, 190, 0.00) 222.72%);
-    }
+  .bg-container-business-lines-general-insurance {
+    border-bottom: 1px solid #FFF;
+    background: linear-gradient(92deg, #1278BE -7.61%, rgba(18, 120, 190, 0.00) 222.72%);
+  }
 }
 
 .business-lines-button-text {
-    color: #FFF;
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 700;
+  color: #FFF;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
 }
 
 .business-lines-description {
-    color: #FFF;
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: -0.64px;
+  color: #FFF;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.64px;
 }
 
 .contact-page-subheader {
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: -0.64px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.64px;
 }
 
 .contact-page-button-text {
-    color: #FFF;
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 700;
-    line-height: 22px;
-    letter-spacing: -0.64px;
+  color: #FFF;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.64px;
 }
 
 .contact-page-input-border {
-    border: 1px solid #f79a1f;
+  border: 1px solid #f79a1f;
 }
 
 description {
-    color: #747474;
-    font-family: "Work Sans";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: -0.64px;
+  color: #747474;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.64px;
 }
 
 .pdf-header {
-    font-family: "Sora";
-    font-style: normal;
-    font-weight: 700;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 700;
 }
 
 .pdf-button {
-    color: #FFF;
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 700;
+  color: #FFF;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
 }
 
 .pdf-text {
-    color: #FFF;
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 400;
+  color: #FFF;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
 }
 
 .liability-card-header {
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 600;
-    line-height: 24px;
-    letter-spacing: -0.64px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.64px;
 }
 
 .liability-container-shadow {
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .card-product-header {
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 600;
-    line-height: 24px;
-    letter-spacing: -0.64px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.64px;
 }
 
 .card-detail {
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 400;
-    line-height: 21px;
-    letter-spacing: -0.64px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.64px;
 }
 
 .location-header {
-    color: #000;
-    font-family: "Sora";
-    font-style: normal;
-    font-weight: 700;
-    line-height: 36px;
-    letter-spacing: -0.64px;
+  color: #000;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.64px;
 }
 
 .location-text {
-    color: #1F2933;
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: -0.28px;
+  color: #1F2933;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.28px;
 }
 
 .bg-contract {
-    background-color: #ffdfb6;
-    box-shadow: inset 0px 4px 4px #ffca84;
+  background-color: #ffdfb6;
+  box-shadow: inset 0px 4px 4px #ffca84;
 }
 
 .contract-table-header {
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 500;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
 }
 
 .contract-table-detail {
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 400;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
 }
 
 .text-yellow {
-    color: #f79a1f;
+  color: #f79a1f;
 }
 
 .icon-yellow {
-    color: #f79a1f;
-    font-size: 35px;
+  color: #f79a1f;
+  font-size: 35px;
 }
 
 .engineering-page-card-description {
-    color: #212121;
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: -0.64px;
+  color: #212121;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.64px;
 }
 
 
 .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
 }
 
 .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
 
 .dot {
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
 .active {
-    background-color: #717171;
+  background-color: #717171;
 }
 
 .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
 @keyframes fade {
-    from {
-        opacity: 0.4;
-    }
+  from {
+    opacity: 0.4;
+  }
 
-    to {
-        opacity: 1;
-    }
+  to {
+    opacity: 1;
+  }
 }
 
 .footer-yellow-header {
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 600;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
 }
 
 .footer-white-detail {
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 600;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
 }
 
 .footer-card-text {
-    color: #FFF;
-    font-family: Work Sans;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: -0.64px;
+  color: #FFF;
+  font-family: Work Sans;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.64px;
 }
 
 .footer-background {
-    background-color: #1278be;
+  background-color: #1278be;
 }
 
 .footer-card-background {
-    background-color: #00528B;
+  background-color: #00528B;
 }
 
 .slider {
-    height: 280px;
-    margin: 0;
-    position: relative;
-    width: 100%;
-    display: grid;
-    place-items: center;
-    overflow: hidden;
+  height: 280px;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
 }
 
 .slide-track {
-    display: flex;
-    width: calc(250px * 40);
-    animation: scroll 90s linear infinite;
+  display: flex;
+  width: calc(250px * 40);
+  animation: scroll 90s linear infinite;
 }
 
 .slide-track:hover {
-    animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 @keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
+  0% {
+    transform: translateX(0);
+  }
 
-    100% {
-        transform: translateX(calc(-250px * 20));
-    }
+  100% {
+    transform: translateX(calc(-250px * 20));
+  }
 }
 
 .slide {
-    width: 250px;
-    display: flex;
-    align-items: center;
-    padding-right: 20px;
-    padding-left: 20px;
-    perspective: 100px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  perspective: 100px;
 }
 
 img:hover {
-    transform: translateZ (20px);
+  transform: translateZ (20px);
 }
 
 .slider::before,
 .slider::after {
-    background-color: white;
-    content: "";
-    height: 100%;
-    position: absolute;
-    width: 2%;
-    z-index: 2;
+  background-color: white;
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 2%;
+  z-index: 2;
 }
 
 .slider::before {
-    left: 0;
-    top: 0;
+  left: 0;
+  top: 0;
 }
 
 .slider::after {
-    right: -1px;
-    top: 0;
-    transform: rotateZ(180deg);
+  right: -1px;
+  top: 0;
+  transform: rotateZ(180deg);
 }
 
 /* .float {
@@ -555,48 +556,48 @@ img:hover {
 }
  */
 .background-pdf {
-    background: linear-gradient(88.64deg, #1278be 2.31%, rgba(18, 120, 190, 0) 182.68%);
+  background: linear-gradient(88.64deg, #1278be 2.31%, rgba(18, 120, 190, 0) 182.68%);
 }
 
 /* Dropdown Section */
 .dropbtn-footer {
-    color: white;
-    border: none;
+  color: white;
+  border: none;
 }
 
 .dropdown-footer {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .dropdown-content-footer {
-    display: none;
-    position: absolute;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    border-radius: 12px;
+  display: none;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 12px;
 }
 
 .dropdown-content-footer a {
-    background-color: #F3F4F6;
-    color: #374151;
-    padding: 16px;
-    text-decoration: none;
-    display: block;
+  background-color: #F3F4F6;
+  color: #374151;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: #F3F4F6;
-    color: #374151;
+  background-color: #F3F4F6;
+  color: #374151;
 }
 
 .dropdown-footer:hover .dropdown-content-footer {
-    display: block;
+  display: block;
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-    .text {
-        font-size: 11px;
-    }
+  .text {
+    font-size: 11px;
+  }
 }
