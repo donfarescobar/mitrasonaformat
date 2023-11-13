@@ -1,7 +1,9 @@
 import React from "react";
+
 import Nav from "../../components/molecules/Navbar/Nav";
 import Footer from "../../components/molecules/Footer/Footer";
 import  "../../index.css"
+
 
 const Contractor = () => {
     return (
@@ -9,13 +11,13 @@ const Contractor = () => {
             <Nav />
             <main>
             <section>
-                <div class="px-4 py-10 md:px-8 lg:px-12 xl:px-24 lg:py-12">
-                 <div class="flex flex-col gap-12">
-                  <div class="flex flex-col items-center gap-4 md:gap-6">
-                    <h2 class="business-lines-header text-xl sm:text-2xl lg:text-3xl">
+                <div className="px-4 py-10 md:px-8 lg:px-12 xl:px-24 lg:py-12">
+                 <div className="flex flex-col gap-12">
+                  <div className="flex flex-col items-center gap-4 md:gap-6">
+                    <h2 className="business-lines-header text-xl sm:text-2xl lg:text-3xl">
                         Contractor
                     </h2>
-                     <p class="card-detail text-sm md:text-base">
+                     <p className="card-detail text-sm md:text-base">
                         PT Mitra Sona Persada has been established since 2015 which is
                         engaged in the supplier of spare parts and procurement of
                         military equipment to support military work, especially in
@@ -24,33 +26,33 @@ const Contractor = () => {
                       </p>
                       </div>
  
-                    <div class="">
-                    <div class="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
+                    <div className="">
+                    <div className="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
                         <div
-                        class="inline-block min-w-full shadow-md rounded-lg overflow-hidden"
+                        className="inline-block min-w-full shadow-md rounded-lg overflow-hidden"
                         >
                         <table
-                            class="min-w-full leading-normal border border-yellow-300"
+                            className="min-w-full leading-normal border border-yellow-300"
                         >
                             <thead>
                             <tr>
                                 <th
-                                class="p-5 border-b text-left contract-table-header items-center text-black uppercase tracking-wider"
+                                className="p-5 border-b text-left contract-table-header items-center text-black uppercase tracking-wider"
                                 >
                                 No
                                 </th>
                                 <th
-                                class="p-5 border-b text-left contract-table-header items-center text-black uppercase tracking-wider"
+                                className="p-5 border-b text-left contract-table-header items-center text-black uppercase tracking-wider"
                                 >
                                 Job
                                 </th>
                                 <th
-                                class="p-5 border-b text-left contract-table-header items-center text-black uppercase tracking-wider"
+                                className="p-5 border-b text-left contract-table-header items-center text-black uppercase tracking-wider"
                                 >
                                 Contract
                                 </th>
                                 <th
-                                class="p-5 border-b text-left contract-table-header items-center text-black uppercase tracking-wider"
+                                className="p-5 border-b text-left contract-table-header items-center text-black uppercase tracking-wider"
                                 >
                                 Date
                                 </th>
@@ -58,92 +60,92 @@ const Contractor = () => {
                             </thead>
                             <tbody>
                             <tr>
-                                <td class="px-5 py-5 bg-contract items-center">
-                                <p class="text-gray-900 contract-table-detail">1</p>
+                                <td className="px-5 py-5 bg-contract items-center">
+                                <p className="text-gray-900 contract-table-detail">1</p>
                                 </td>
-                                <td class="px-5 py-5 bg-contract items-center">
-                                <p class="text-gray-900 contract-table-detail">
+                                <td className="px-5 py-5 bg-contract items-center">
+                                <p className="text-gray-900 contract-table-detail">
                                     Pengadaan Komponen Aircraft System Mi-35
                                 </p>
                                 </td>
-                                <td class="px-5 py-5 bg-contract items-center">
-                                <p class="text-gray-900 contract-table-detail">
+                                <td className="px-5 py-5 bg-contract items-center">
+                                <p className="text-gray-900 contract-table-detail">
                                     1055/DN/ALUT/PUSPNB/2019
                                 </p>
                                 </td>
-                                <td class="px-5 py-5 bg-contract items-center">
-                                <p class="text-gray-900 contract-table-detail">
+                                <td className="px-5 py-5 bg-contract items-center">
+                                <p className="text-gray-900 contract-table-detail">
                                     26 Februari 2019
                                 </p>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="px-5 py-5 items-center">
+                                <td className="px-5 py-5 items-center">
                                 <p
-                                    class=" text-gray-900 contract-table-detail"
+                                    className=" text-gray-900 contract-table-detail"
                                 >
                                     2
                                 </p>
                                 </td>
-                                <td class="px-5 py-5 items-center">
+                                <td className="px-5 py-5 items-center">
                                 <p
-                                    class=" text-gray-900 contract-table-detail"
+                                    className=" text-gray-900 contract-table-detail"
                                 >
                                     Pengadaan & Pemasangan Floating System Helikopter
                                     Bell 412 Dron-12 & Dron-13
                                 </p>
                                 </td>
-                                <td class="px-5 py-5 items-center">
+                                <td className="px-5 py-5 items-center">
                                 <p
-                                    class=" text-gray-900 contract-table-detail"
+                                    className=" text-gray-900 contract-table-detail"
                                 >
                                     912/DN/ALUT/PUSPNB/2019
                                 </p>
                                 </td>
-                                <td class="px-5 py-5 items-center">
+                                <td className="px-5 py-5 items-center">
                                 <p
-                                    class=" text-gray-900 contract-table-detail"
+                                    className=" text-gray-900 contract-table-detail"
                                 >
                                     18 Februari 2019
                                 </p>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="px-5 py-5 bg-contract items-center">
-                                <p class="text-gray-900 contract-table-detail">3</p>
+                                <td className="px-5 py-5 bg-contract items-center">
+                                <p className="text-gray-900 contract-table-detail">3</p>
                                 </td>
-                                <td class="px-5 py-5 bg-contract items-center">
-                                <p class="text-gray-900 contract-table-detail">
+                                <td className="px-5 py-5 bg-contract items-center">
+                                <p className="text-gray-900 contract-table-detail">
                                     Pengadaan Fast Rope Helikopter Bell 412 Dron-12
                                 </p>
                                 </td>
-                                <td class="px-5 py-5 bg-contract items-center">
-                                <p class="text-gray-900 contract-table-detail">
+                                <td className="px-5 py-5 bg-contract items-center">
+                                <p className="text-gray-900 contract-table-detail">
                                     2014/DN/ALUT/PUSPNB/2019
                                 </p>
                                 </td>
-                                <td class="px-5 py-5 bg-contract items-center">
-                                <p class="text-gray-900 contract-table-detail">
+                                <td className="px-5 py-5 bg-contract items-center">
+                                <p className="text-gray-900 contract-table-detail">
                                     18 April 2019
                                 </p>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="px-5 py-5">
-                                <p class="text-gray-900 contract-table-detail">4</p>
+                                <td className="px-5 py-5">
+                                <p className="text-gray-900 contract-table-detail">4</p>
                                 </td>
-                                <td class="px-5 py-5">
-                                <p class="text-gray-900 contract-table-detail">
+                                <td className="px-5 py-5">
+                                <p className="text-gray-900 contract-table-detail">
                                     Pengadaan Tools/Special Tool Bell 412/MI-17
                                 </p>
                                 </td>
-                                <td class="px-5 py-5">
-                                <p class="text-gray-900 contract-table-detail">
+                                <td className="px-5 py-5">
+                                <p className="text-gray-900 contract-table-detail">
                                     1955/DN/ALUT/PUSPNB/2019
                                 </p>
                                 </td>
-                                <td class="px-5 py-5">
-                                <p class="text-gray-900 contract-table-detail">
+                                <td className="px-5 py-5">
+                                <p className="text-gray-900 contract-table-detail">
                                     15 April 2019
                                 </p>
                                 </td>
@@ -156,12 +158,12 @@ const Contractor = () => {
                 </div>
                 </div>
             </section>
-            <section class="background-pdf my-14">
-                <div class="px-4 py-10 md:px-8 lg:px-12 xl:px-24 lg:py-12">
+            <section className="background-pdf my-14">
+                <div className="px-4 py-10 md:px-8 lg:px-12 xl:px-24 lg:py-12">
                 <div
-                    class="flex flex-row justify-between items-center gap-6 md:flex-row"
+                    className="flex flex-row justify-between items-center gap-6 md:flex-row"
                 >
-                    <div class="inline-flex items-center">
+                    <div className="inline-flex items-center">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         aria-labelledby="icon-pdf"
@@ -177,22 +179,22 @@ const Contractor = () => {
                         fill="white"
                         />
                     </svg>
-                    <div class="flex flex-col gap-1 ml-3">
+                    <div className="flex flex-col gap-1 ml-3">
                         <h3
-                        class="pdf-header text-white text-md md:text-xl lg:text-2xl"
+                        className="pdf-header text-white text-md md:text-xl lg:text-2xl"
                         >
                         Download Company Profile
                         </h3>
-                        <p class="text-white text-sm md:text-base lg:text-lg">
+                        <p className="text-white text-sm md:text-base lg:text-lg">
                         Type : PDF
                         </p>
                     </div>
                     </div>
-                    <div class="h-full">
+                    <div className="h-full">
                     <a
                         href="/pdf/Contractor.pdf"
                         download
-                        class="pdf-button flex flex-row justify-center items-center py-2 px-4 lg:py-5 lg:px-10 text-white bg-button-banner rounded-md"
+                        className="pdf-button flex flex-row justify-center items-center py-2 px-4 lg:py-5 lg:px-10 text-white bg-button-banner rounded-md"
                     >
                         Download
                     </a>

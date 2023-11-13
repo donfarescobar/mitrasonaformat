@@ -1,4 +1,5 @@
 import React from "react";
+
 import Nav from "../../components/molecules/Navbar/Nav"
 import Footer from "../../components/molecules/Footer/Footer"
 import "../../index.css"

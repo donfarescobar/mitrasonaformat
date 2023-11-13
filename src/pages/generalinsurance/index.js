@@ -9,186 +9,186 @@ const GeneralInsurance = () => {
         <Nav/>
         <main>
          <section>
-          <div class="px-4 py-10 md:px-8 lg:px-12 xl:px-24 lg:py-12">
-           <div class="flex flex-start justify-center mb-12">
+          <div className="px-4 py-10 md:px-8 lg:px-12 xl:px-24 lg:py-12">
+           <div className="flex flex-start justify-center mb-12">
             <h2
-              class="business-lines-header text-center text-xl md:text-2xl lg:text-3xl"
+              className="business-lines-header text-center text-xl md:text-2xl lg:text-3xl"
             >
               General Insurance
             </h2>
           </div>
           <div
-            class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
+            className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
           >
-            <div class="flex flex-col flex-start gap-3 md:gap-6">
+            <div className="flex flex-col flex-start gap-3 md:gap-6">
               <div>
                 <img
-                  class="object-cover h-36 lg:h-56 rounded-md w-full"
+                  className="object-cover h-36 lg:h-56 rounded-md w-full"
                   src="images/engineering.webp"
                   alt="Property All-Risk Insurance"
                   loading="lazy"
                 />
               </div>
-              <div class="flex flex-col gap-2.5 lg:gap-3.5">
-                <h3 class="product-card-header text-xl lg:text-2xl">
+              <div className="flex flex-col gap-2.5 lg:gap-3.5">
+                <h3 className="product-card-header text-xl lg:text-2xl">
                   Engineering
                 </h3>
                 <p
-                  class="engineering-page-card-description text-sm md:text-base"
+                  className="engineering-page-card-description text-sm md:text-base"
                 >
                   Et enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex minim veniam, quis.
                 </p>
-                <div class="">
+                <div>
                   <a
-                    href="/pages/general-insurance/engineering.html"
-                    class="product-card-button text-md md:text-lg"
+                    href="/Engineering"
+                    className="product-card-button text-md md:text-lg"
                   >
                     Read More
                   </a>
                 </div>
               </div>
             </div>
-            <div class="flex flex-col flex-start gap-3 md:gap-6">
+            <div className="flex flex-col flex-start gap-3 md:gap-6">
               <div>
                 <img
-                  class="object-cover h-36 lg:h-56 rounded-md w-full"
+                  className="object-cover h-36 lg:h-56 rounded-md w-full"
                   src="images/property-all-risk.webp"
                   alt="Property All-Risk Insurance"
                   loading="lazy"
                 />
               </div>
-              <div class="flex flex-col gap-2.5 lg:gap-3.5">
-                <h3 class="product-card-header text-xl lg:text-2xl">
+              <div className="flex flex-col gap-2.5 lg:gap-3.5">
+                <h3 className="product-card-header text-xl lg:text-2xl">
                   Property All-Risk
                 </h3>
                 <p
-                  class="engineering-page-card-description text-sm md:text-base"
+                  className="engineering-page-card-description text-sm md:text-base"
                 >
                   Et enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex minim veniam, quis.
                 </p>
-                <div class="">
+                <div>
                   <a
-                    href="/pages/general-insurance/property.html"
-                    class="product-card-button text-md md:text-lg"
+                    href="/Property"
+                    className="product-card-button text-md md:text-lg"
                   >
                     Read More
                   </a>
                 </div>
               </div>
             </div>
-            <div class="flex flex-col flex-start gap-3 md:gap-6">
+            <div className="flex flex-col flex-start gap-3 md:gap-6">
               <div>
                 <img
-                  class="object-cover h-36 lg:h-56 rounded-md w-full"
+                  className="object-cover h-36 lg:h-56 rounded-md w-full"
                   src="images/marine-hull.webp"
                   alt="Surety Bond"
                   loading="lazy"
                 />
               </div>
 
-              <div class="flex flex-col gap-2.5 lg:gap-3.5">
-                <h3 class="product-card-header text-xl lg:text-2xl">
+              <div className="flex flex-col gap-2.5 lg:gap-3.5">
+                <h3 className="product-card-header text-xl lg:text-2xl">
                   All Marine
                 </h3>
                 <p
-                  class="engineering-page-card-description text-sm md:text-base"
+                  className="engineering-page-card-description text-sm md:text-base"
                 >
                   Et enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex minim veniam, quis.
                 </p>
-                <div class="">
+                <div>
                   <a
-                    href="/pages/general-insurance/all-marine.html"
-                    class="product-card-button text-md md:text-lg"
+                    href="/AllMarine"
+                    className="product-card-button text-md md:text-lg"
                   >
                     Read More
                   </a>
                 </div>
               </div>
             </div>
-            <div class="flex flex-col flex-start gap-3 md:gap-6">
+            <div className="flex flex-col flex-start gap-3 md:gap-6">
               <div>
                 <img
-                  class="object-cover h-36 lg:h-56 rounded-md w-full"
+                  className="object-cover h-36 lg:h-56 rounded-md w-full"
                   src="images/motor-vehicle.webp"
                   alt=" Engineering Insurance"
                   loading="lazy"
                 />
               </div>
-              <div class="flex flex-col gap-2.5 lg:gap-3.5">
-                <h3 class="product-card-header text-xl lg:text-2xl">
+              <div className="flex flex-col gap-2.5 lg:gap-3.5">
+                <h3 className="product-card-header text-xl lg:text-2xl">
                   Motor Vehicle
                 </h3>
                 <p
-                  class="engineering-page-card-description text-sm md:text-base"
+                  className="engineering-page-card-description text-sm md:text-base"
                 >
                   Et enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex minim veniam, quis.
                 </p>
-                <div class="">
+                <div className="">
                   <a
-                    href="/pages/general-insurance/motor-vehicle.html"
-                    class="product-card-button text-md md:text-lg"
+                    href="/MotorVehicle"
+                    className="product-card-button text-md md:text-lg"
                   >
                     Read More
                   </a>
                 </div>
               </div>
             </div>
-            <div class="flex flex-col flex-start gap-3 md:gap-6">
+            <div className="flex flex-col flex-start gap-3 md:gap-6">
               <div>
                 <img
-                  class="object-cover h-36 lg:h-56 rounded-md w-full"
+                  className="object-cover h-36 lg:h-56 rounded-md w-full"
                   src="images/liability-insurance.webp"
                   alt="Liability Insurance"
                   loading="lazy"
                 />
               </div>
-              <div class="flex flex-col gap-2.5 lg:gap-3.5">
-                <h3 class="product-card-header text-xl lg:text-2xl">
+              <div className="flex flex-col gap-2.5 lg:gap-3.5">
+                <h3 className="product-card-header text-xl lg:text-2xl">
                   Liability
                 </h3>
                 <p
-                  class="engineering-page-card-description text-sm md:text-base"
+                  className="engineering-page-card-description text-sm md:text-base"
                 >
                   Et enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex minim veniam, quis.
                 </p>
-                <div class="">
+                <div className="">
                   <a
-                    href="/pages/general-insurance/liability.html"
-                    class="product-card-button text-md md:text-lg"
+                    href="/Liability"
+                    className="product-card-button text-md md:text-lg"
                   >
                     Read More
                   </a>
                 </div>
               </div>
             </div>
-            <div class="flex flex-col flex-start gap-3 md:gap-6">
+            <div className="flex flex-col flex-start gap-3 md:gap-6">
               <div>
                 <img
-                  class="object-cover h-36 lg:h-56 rounded-md w-full"
+                  className="object-cover h-36 lg:h-56 rounded-md w-full"
                   src="images/surety-bond.webp"
                   alt="Surety Bond Insurance"
                   loading="lazy"
                 />
               </div>
-              <div class="flex flex-col gap-2.5 lg:gap-3.5">
-                <h3 class="product-card-header text-xl lg:text-2xl">
+              <div className="flex flex-col gap-2.5 lg:gap-3.5">
+                <h3 className="product-card-header text-xl lg:text-2xl">
                   Surety Bond
                 </h3>
                 <p
-                  class="engineering-page-card-description text-sm md:text-base"
+                  className="engineering-page-card-description text-sm md:text-base"
                 >
                   Et enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex minim veniam, quis.
                 </p>
-                <div class="">
+                <div className="">
                   <a
-                    href="/pages/general-insurance/surety-bond.html"
-                    class="product-card-button text-md md:text-lg"
+                    href="/SuretyBond"
+                    className="product-card-button text-md md:text-lg"
                   >
                     Read More
                   </a>
@@ -198,12 +198,12 @@ const GeneralInsurance = () => {
           </div>
         </div>
       </section>
-      <section class="background-pdf my-14">
-        <div class="px-4 py-10 md:px-8 lg:px-12 xl:px-24 lg:py-12">
+      <section className="background-pdf my-14">
+        <div className="px-4 py-10 md:px-8 lg:px-12 xl:px-24 lg:py-12">
           <div
-            class="flex flex-row justify-between items-center gap-6 md:flex-row"
+            className="flex flex-row justify-between items-center gap-6 md:flex-row"
           >
-            <div class="inline-flex items-center">
+            <div className="inline-flex items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 aria-labelledby="icon-pdf"
@@ -219,24 +219,24 @@ const GeneralInsurance = () => {
                   fill="white"
                 />
               </svg>
-              <div class="flex flex-col gap-1 ml-3">
+              <div className="flex flex-col gap-1 ml-3">
                 <h3
-                  class="pdf-header text-white text-md md:text-xl lg:text-2xl"
+                  className="pdf-header text-white text-md md:text-xl lg:text-2xl"
                 >
                   Download Company Profile
                 </h3>
-                <p class="text-white text-sm md:text-base lg:text-lg">
+                <p className="text-white text-sm md:text-base lg:text-lg">
                   Type : PDF
                 </p>
               </div>
             </div>
             <button
               aria-label="Download General PDF"
-              class="bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-4 rounded-md"
+              className="bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-4 rounded-md"
             >
               <a
                 href="/pdf/General.pdf"
-                class="pdf-button text-sm md:text-base lg:text-lg"
+                className="pdf-button text-sm md:text-base lg:text-lg"
                 title="Download the General PDF document"
                 download
               >
