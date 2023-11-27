@@ -3,6 +3,8 @@ import React from "react";
 import Nav from "../../components/molecules/Navbar/Nav"
 import Footer from "../../components/molecules/Footer/Footer"
 import "../../index.css"
+import { IMAGE } from "../../assets/images";
+import {PROPERTY_ALL_RISK} from "../data"
 
 function Property (){
     return(
@@ -14,42 +16,32 @@ function Property (){
                 <div className="flex flex-col gap-4 md:gap-6">
                     <div className="w-full">
                     <img
-                        src="/images/property-all-risk.webp"
+                        src={IMAGE.surety_bond}
                         className="w-full h-80 md:h-72 object-cover"
                         alt="property-images"
                     />
                     </div>
-                    <div className="flex flex-col gap-2 md:gap-3">
-                    <h2 className="location-header text-xl lg:text-2xl">
-                        Property All Risk
-                    </h2>
-                    <p className="card-detail text-sm md:text-base">
-                        Provides protection to your property against all damage from any
-                        fortuitous cause such as fire, lightning strike, explosion,
-                        plane crash, smoke (FLEXAS), hurricane, storm, flood,
-                        landslides, earthquakes, strikes, riots, riots, evil actions of
-                        others and other risks.
-                    </p>
-                    </div>
-                    <div className="flex flex-col gap-1 md:gap-2">
-                    <h3 className="location-header text-xl">Benefits</h3>
-                    <ul className="list-disc list-inside">
-                        <li className="card-detail text-sm md:text-base">
-                        Provide compensation for damage, loss and destruction to
-                        property (material damage).
-                        </li>
-                        <li className="card-detail text-sm md:text-base">
-                        Provide compensation for losses or lost profits in connection
-                        with the cessation of company operations (business
-                        interruption) caused by loss of property.
-                        </li>
-                        <li className="card-detail text-sm md:text-base">
-                        Providing extended coverage with an additional premium to be
-                        able to get additional benefits such as third party claim
-                        fees, debris cleaning fees, and fire fighting fees.
-                        </li>
-                    </ul>
-                    </div>
+
+                    {PROPERTY_ALL_RISK.map((property, index) => (
+                    <div key={index} className="flex flex-col gap-3">
+                        <h2 className="location-header text-xl lg:text-2xl">
+                            {property.title}
+                        </h2>
+                        <p className="card-detail text-sm md:text-base">
+                            {property.desk}
+                        </p>
+                        {property.attribute && (
+                            <div className="flex flex-col gap-1 md:gap-2">
+                                <h3 className="location-header text-xl">Benefits</h3>
+                                <ul className="list-disc list-inside">
+                                    {property.description.map((benefit, i) => (
+                                    <li key={i} className="card-detail text-sm md:text-base">{benefit}</li>
+                                        ))}
+                            </ul>
+                        </div>
+                       )}
+                     </div>
+                     ))}
                 </div>
                 </div>
             </section>

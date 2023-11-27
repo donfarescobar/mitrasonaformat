@@ -3,6 +3,8 @@ import React from "react";
 import Nav from "../../components/molecules/Navbar/Nav"
 import Footer from "../../components/molecules/Footer/Footer"
 import "../../index.css"
+import { IMAGE } from "../../assets/images";
+import { MOTOR_VEHICLE } from "../data";
 
 
 
@@ -16,36 +18,28 @@ function MotorVehicle (){
             <div className="flex flex-col gap-4 md:gap-6">
                 <div className="w-full">
                 <img
-                    src="/images/motor-vehicle.webp"
+                    src={IMAGE.motor_vehicle}
                     className="w-full h-80 md:h-72 object-cover"
                     alt="motor-vehicle-images"
                 />
                 </div>
                 <div className="flex flex-col gap-2 md:gap-3">
-                <h2 className="location-header text-xl lg:text-2xl">Motor Vehicle</h2>
+                <h2 className="location-header text-xl lg:text-2xl">{MOTOR_VEHICLE[0].title}</h2>
                 <p className="card-detail text-sm md:text-base">
-                    Provides protection for all types of motorized vehiches, such as
-                    trucks, four-wheeled vehicles (cars) & two-wheeled vehicles
-                    (motorbikes) againts any loss or damage caused by:
+                {MOTOR_VEHICLE[0].description}
                 </p>
-                <div className="flex flex-col gap-4 mt-2">
-                    <ol className="list-decimal list-inside">
-                    <li className="card-detail text-sm md:text-base">Accident</li>
-                    <li className="card-detail text-sm md:text-base">
-                        External acts of crime
-                    </li>
-                    <li className="card-detail text-sm md:text-base">
-                        Theft, fire and damage that occurred while on the ferry
-                    </li>
-                    <li className="card-detail text-sm md:text-base">Riot</li>
-                    <li className="card-detail text-sm md:text-base">
-                        Act of God (Natural Disaster, Eruption)
-                    </li>
-                    <li className="card-detail text-sm md:text-base">
-                        Floods, earthquakes, strong winds, rainstorms
-                    </li>
-                    </ol>
+                {MOTOR_VEHICLE.slice(1).map((motor, index)=>{
+                if (!motor.atribute) return null;
+                const number = index + 1 ;
+                return(
+                <div key={index} className="flex flex-col gap-4 mt-2">
+                <ol className=" list-inside">
+                <li className="card-detail text-sm md:text-base">{number}. {motor.atribute}</li>
+                </ol>
                 </div>
+                );
+                })}
+
                 </div>
             </div>
             </div>

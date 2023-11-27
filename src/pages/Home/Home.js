@@ -1,10 +1,11 @@
 import React from "react";
+
 import Nav from "../../components/molecules/Navbar/Nav";
 import Footer from "../../components/molecules/Footer/Footer";
+import {IMAGE, PARTNERS} from "../../assets/images/index"
 
 
-
-export default function Home() {
+export default function Home() {   
     return (
         <div>
             <Nav/> {/*Import component navbar*/}
@@ -37,7 +38,7 @@ export default function Home() {
                             <div className="container-image-hero">
                                 <img
                                     className="rounded-md object-cover object-center h-full w-full"
-                                    src='./images/hero-dekstop.webp'
+                                    src={IMAGE.hero_desktop}
                                     alt="Company Hero" />
                             </div>
                         </div>
@@ -71,7 +72,7 @@ export default function Home() {
                                 <div className="flex flex-col gap-8">
                                     <div className="flex items-start gap-3 md:gap-6">
                                         <img
-                                            src='/images/icon/send.webp'
+                                            src={IMAGE.icon_send}
                                             alt="logo vision"
                                             className="svg-size object-cover" />
                                         <div className="flex flex-col gap-2 lg:gap-4">
@@ -88,7 +89,7 @@ export default function Home() {
                                     </div>
                                     <div className="flex items-start gap-3 md:gap-6">
                                         <img
-                                            src="/images/icon/users.webp"
+                                            src={IMAGE.icon_send}
                                             alt="logo vision"
                                             className="svg-size object-cover" />
                                         <div className="flex flex-col gap-2 lg:gap-4">
@@ -201,124 +202,18 @@ export default function Home() {
                                     Our Partners
                                 </h2>
                             </div>
-                            <div className="slider"> {/*Company partner slider */}
-                                <div className="slide-track">
-                                    <div className="slide">
-                                        <img
-                                            className="w-full"
-                                            src="/images/Company-Partner/askrindo.webp"
-                                            alt="pt.askrindo" />
-                                    </div>
-                                    <div className="slide">
-                                        <img
-                                            className="w-full"
-                                            src="/images/Company-Partner/jasindo.webp"
-                                            alt="asuransiJasindo" />
-                                    </div>
-                                                            {/* <!-- <div className="slide">
-                                    <img className="w-full" src="/images/Company-Partner/jamkrindo.webp" alt="pt.asuransi jamkrindo" />
-                                </div> -->
-                                    <!-- <div className="slide">
-                                    <img className="w-full" src="/images/Company-Partner/jamkrindo-syariah.webp"
-                                    alt="pt.asuransi jamkrindo syariah" />
-                                </div> --> */}
-                                    <div className="slide">
-                                        <img
-                                            className="w-full"
-                                            src="/images/Company-Partner/bri-insurance.webp"
-                                            alt="pt.bri insurance" />
-                                    </div>
-                                    <div className="slide">
-                                        <img
-                                            className="w-full"
-                                            src="/images/Company-Partner/asuransi-bhayangkara.webp"
-                                            alt="pt.asuransi bhakti bayangkara" />
-                                    </div>
-                                    <div className="slide">
-                                        <img
-                                            className="w-full"
-                                            src="/images/Company-Partner/maxium-insurance.webp"
-                                            alt="pt.maximus insurance" />
-                                    </div>
-                                    <div className="slide">
-                                        <img
-                                            className="w-full"
-                                            src="/images/Company-Partner/sinarmas.webp"
-                                            alt="pt.asuransi sinarmas" />
-                                    </div>
-                                    <div className="slide">
-                                        <img
-                                            className="w-full"
-                                            src="/images/Company-Partner/sinarmas-syariah.webp"
-                                            alt="pt.asuransi sinarmas syariah" />
-                                    </div>
-                                    <div className="slide">
-                                        <img
-                                            className="w-full"
-                                            src="/images/Company-Partner/bosowa-insurance.webp"
-                                            alt="pt.bosowa asuransi" />
-                                    </div>
-                                    <div className="slide">
-                                        <img
-                                            className="w-full"
-                                            src="/images/Company-Partner/tugu-insurance.webp"
-                                            alt="pt.asuransi tugu" />
-                                    </div>
-                                    <div className="slide">
-                                        <img
-                                            className="w-full"
-                                            src="/images/Company-Partner/pln-insurance.webp"
-                                            alt="pt.pln insurance" />
-                                    </div>
-                                    <div className="slide">
-                                        <img
-                                            className="w-full"
-                                            src="/images/Company-Partner/bank-mandiri.webp"
-                                            alt="bank mandiri" />
-                                    </div>
-                                    <div className="slide">
-                                        <img
-                                            className="w-full"
-                                            src="/images/Company-Partner/bank-bri.webp"
-                                            alt="bank rakyat indonesia" />
-                                    </div>
-                                    <div className="slide">
-                                        <img
-                                            className="w-full"
-                                            src="/images/Company-Partner/bank-bni.webp"
-                                            alt="bank negara indonesia" />
-                                    </div>
-                                    <div className="slide">
-                                        <img
-                                            className="w-full"
-                                            src="/images/Company-Partner/bank-jogja.webp"
-                                            alt="bank jogja" />
-                                    </div>
-                                    <div className="slide">
-                                        <img
-                                            className="w-full"
-                                            src="/images/Company-Partner/bank-kalsel.webp"
-                                            alt="bank kalimantan selatan" />
-                                    </div>
-                                    <div className="slide">
-                                        <img
-                                            className="w-full"
-                                            src="/images/Company-Partner/bank-bukopin.webp"
-                                            alt="bank bukopin syariah" />
-                                    </div>
-                                    <div className="slide">
-                                        <img
-                                            className="w-full"
-                                            src="/images/Company-Partner/bank-bukopin-syariah.webp"
-                                            alt="bank bukopin" />
-                                    </div>
-                                    <div className="slide">
-                                        <img
-                                            className="w-full"
-                                            src="/images/Company-Partner/ikonoa.webp"
-                                            alt="pt.ikonoa solusindo asia" />
-                                    </div>
+                            <div className="slider">
+                            <div className="slide-track">
+                                {PARTNERS.map((partner, index) => (
+                                <div className="slide" key={index}>
+                                    <img
+                                    className="w-full"
+                                    src={partner.partnerImg}
+                                    alt={partner.alt}
+                                    />
                                 </div>
+                                ))}
+                             </div>
                             </div>
                         </div>
                     </div>

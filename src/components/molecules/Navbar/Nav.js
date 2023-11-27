@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import {IMAGE} from "../../../assets/images/index"
+
 const Nav = () => { 
   const NavLinks = [ // array for menu navbar
     { title: "Home", link: "/" },
@@ -36,7 +38,7 @@ const Nav = () => {
       <nav className="px-4 py-2 md:px-8 lg:px-12 xl:px-24 md:flex md:justify-between md:items-center">
         <div className="flex items-center justify-between">
           <a href="/" className="focus:outline-none" tabIndex="0">
-            <img src="/images/icon/logo.webp" alt="logo-perusahaan" className="w-20 h-20" />
+            <img src={IMAGE.icon_logo} alt="logo-perusahaan" className="w-20 h-20" />
           </a>
           <div
             onClick={toggleMobileMenu} //Onclick dropdwon for mobile
@@ -96,9 +98,9 @@ const Nav = () => {
                       className={`inline w-4 h-4 transition-transform duration-200 transform cursor-pointer ml-2 ${productDropdownOpen ? "transform rotate-180" : ""}`}
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       ></path>
                     </svg>
                   </a>

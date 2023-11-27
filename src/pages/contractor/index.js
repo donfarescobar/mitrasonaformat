@@ -26,7 +26,7 @@ const Contractor = () => {
                       </p>
                       </div>
  
-                    <div className="">
+                    <div className>
                     <div className="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
                         <div
                         className="inline-block min-w-full shadow-md rounded-lg overflow-hidden"
@@ -149,9 +149,9 @@ const Contractor = () => {
                                     15 April 2019
                                 </p>
                                 </td>
-                            </tr>
-                            </tbody>
-                        </table>
+                                 </tr>
+                                </tbody>
+                             </table>
                         </div>
                     </div>
                     </div>
