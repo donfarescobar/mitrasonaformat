@@ -1,10 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import  Nav from "../../components/molecules/Navbar/Nav";
-import  Footer from "../../components/molecules/Footer/Footer";
 import  "../../index.css"
 import {GENERAL_INSURANCE} from "../data"
+
 
 
 
@@ -12,8 +11,7 @@ import {GENERAL_INSURANCE} from "../data"
 const GeneralInsurance = () => {
   return (
     <>
-      <Nav />
-      <main>
+    <main>
         <section>
           <div className="px-4 py-10 md:px-8 lg:px-12 xl:px-24 lg:py-12">
             <div className="flex flex-start justify-center mb-12">
@@ -27,7 +25,7 @@ const GeneralInsurance = () => {
                   <img
                     className="object-cover h-36 lg:h-56 rounded-md w-full"
                     src={GENERAL_INSURANCE.component1.image}
-                    alt="Property All-Risk Insurance"
+                    alt="Gambar Property All-Risk Insurance"
                     loading="lazy" />
                   </div>
                 <div className="flex flex-col gap-2.5 lg:gap-3.5">
@@ -51,7 +49,7 @@ const GeneralInsurance = () => {
                   <img
                     className="object-cover h-36 lg:h-56 rounded-md w-full"
                     src={GENERAL_INSURANCE.component2.image}
-                    alt="Property All-Risk Insurance"
+                    alt="Gambar Property All-Risk Insurance"
                     loading="lazy" />
                   </div>
                 <div className="flex flex-col gap-2.5 lg:gap-3.5">
@@ -75,7 +73,7 @@ const GeneralInsurance = () => {
                   <img
                     className="object-cover h-36 lg:h-56 rounded-md w-full"
                     src={GENERAL_INSURANCE.component3.image}
-                    alt="Property All-Risk Insurance"
+                    alt="Gambar Property All-Risk Insurance"
                     loading="lazy" />
                   </div>
                 <div className="flex flex-col gap-2.5 lg:gap-3.5">
@@ -99,7 +97,7 @@ const GeneralInsurance = () => {
                   <img
                     className="object-cover h-36 lg:h-56 rounded-md w-full"
                     src={GENERAL_INSURANCE.component4.image}
-                    alt="Property All-Risk Insurance"
+                    alt="Gambar Property All-Risk Insurance"
                     loading="lazy" />
                   </div>
                 <div className="flex flex-col gap-2.5 lg:gap-3.5">
@@ -123,7 +121,7 @@ const GeneralInsurance = () => {
                   <img
                     className="object-cover h-36 lg:h-56 rounded-md w-full"
                     src={GENERAL_INSURANCE.component5.image}
-                    alt="Property All-Risk Insurance"
+                    alt="Gambar Property All-Risk Insurance"
                     loading="lazy" />
                   </div>
                 <div className="flex flex-col gap-2.5 lg:gap-3.5">
@@ -147,7 +145,7 @@ const GeneralInsurance = () => {
                   <img
                     className="object-cover h-36 lg:h-56 rounded-md w-full"
                     src={GENERAL_INSURANCE.component6.image}
-                    alt="Property All-Risk Insurance"
+                    alt="Gambar Property All-Risk Insurance"
                     loading="lazy" />
                   </div>
                 <div className="flex flex-col gap-2.5 lg:gap-3.5">
@@ -182,8 +180,8 @@ const GeneralInsurance = () => {
                   fill="none"
                 >
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M63 20.25V63C63 65.3869 62.0518 67.6761 60.364 69.364C58.6761 71.0518 56.3869 72 54 72H49.5V67.5H54C55.1935 67.5 56.3381 67.0259 57.182 66.182C58.0259 65.3381 58.5 64.1935 58.5 63V20.25H49.5C47.7098 20.25 45.9929 19.5388 44.727 18.273C43.4612 17.0071 42.75 15.2902 42.75 13.5V4.5H18C16.8065 4.5 15.6619 4.97411 14.818 5.81802C13.9741 6.66193 13.5 7.80653 13.5 9V49.5H9V9C9 6.61305 9.94821 4.32387 11.636 2.63604C13.3239 0.948212 15.6131 0 18 0L42.75 0L63 20.25ZM7.2 53.325H0V71.3205H3.5595V65.2815H7.173C8.4645 65.2815 9.5625 65.025 10.467 64.503C11.3805 63.9765 12.078 63.2655 12.5505 62.37C13.0409 61.4303 13.2899 60.3834 13.275 59.3235C13.275 58.1985 13.0365 57.1815 12.564 56.277C12.094 55.3779 11.3755 54.6328 10.494 54.1305C9.594 53.5905 8.5005 53.325 7.2 53.325ZM9.6525 59.3235C9.66872 59.9164 9.53728 60.504 9.27 61.0335C9.03021 61.4945 8.65696 61.8725 8.199 62.118C7.67515 62.3772 7.09571 62.5039 6.5115 62.487H3.546V56.16H6.516C7.497 56.16 8.2665 56.43 8.82 56.9745C9.3735 57.5235 9.6525 58.3065 9.6525 59.3235ZM15.129 53.325V71.3205H21.699C23.5035 71.3205 25.002 70.9605 26.19 70.254C27.3922 69.5347 28.331 68.4476 28.8675 67.1535C29.4525 65.8035 29.7495 64.1745 29.7495 62.2755C29.7495 60.3855 29.457 58.7745 28.8675 57.438C28.3373 56.1587 27.4075 55.0853 26.217 54.378C25.029 53.676 23.5215 53.325 21.6945 53.325H15.129ZM18.6885 56.2275H21.222C22.338 56.2275 23.247 56.4525 23.9625 56.9115C24.7052 57.3972 25.2655 58.1158 25.5555 58.9545C25.911 59.859 26.0865 60.9885 26.0865 62.343C26.1005 63.2405 25.9976 64.136 25.7805 65.007C25.6202 65.6939 25.3199 66.3404 24.8985 66.906C24.507 67.4106 23.9882 67.802 23.3955 68.04C22.701 68.2999 21.9634 68.4251 21.222 68.409H18.6885V56.2275ZM35.532 64.161V71.3205H31.977V53.325H43.443V56.2635H35.532V61.29H42.759V64.161H35.532Z"
                   fill="white" />
                 </svg>
@@ -213,8 +211,7 @@ const GeneralInsurance = () => {
           </div>
         </section>
       </main>
-      <Footer />
-    </>
+      </>
   );
 };
 

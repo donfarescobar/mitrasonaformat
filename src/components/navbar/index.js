@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import {IMAGE} from "../../../assets/images/index"
+import {IMAGE} from "../../assets/images/index"
 
 const Nav = () => { 
   const NavLinks = [ // array for menu navbar

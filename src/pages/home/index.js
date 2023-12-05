@@ -1,14 +1,13 @@
 import React from "react";
 
-import Nav from "../../components/molecules/Navbar/Nav";
-import Footer from "../../components/molecules/Footer/Footer";
+
 import {IMAGE, PARTNERS} from "../../assets/images/index"
 
 
-export default function Home() {   
+
+const Home = () => {   
     return (
-        <div>
-            <Nav/> {/*Import component navbar*/}
+        <>
             <main>
                 <section>
                     <div className="px-4 py-10 md:px-8 lg:px-12 xl:px-24 lg:py-12">
@@ -56,11 +55,11 @@ export default function Home() {
                                     className="responsive-iframe-home"
                                     src="https://maps.google.com/maps?q=Ruko%20Mega%20Cempaka%20Mas%20blok%20M%201%20no.%2033,%20Jakarta%20Pusat%20-%20Indonesia&t=&z=13&ie=UTF8&iwloc=&output=embed"
                                     title="Lokasi Perusahaan"
-                                    frameborder="0"
+                                    frameBorder="0"
                                     scrolling="no"
-                                    marginheight="0"
-                                    marginwidth="0"
-                                    allowfullscreen
+                                    marginHeight="0"
+                                    marginWidth="0"
+                                    allowFullScreen
                                 ></iframe>
                             </div>
                             <div className="flex flex-col justify-center md:justify-start gap-10">
@@ -217,9 +216,11 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section>        
             </main>
-            <Footer />  {/*import component footer*/}
-        </div>
+            </> 
     );
 }
+
+
+export default Home;

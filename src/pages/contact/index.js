@@ -1,14 +1,12 @@
 import React from "react";
-import Nav from "../../components/molecules/Navbar/Nav"
-import Footer from "../../components/molecules/Footer/Footer"
+
 import "../../index.css"
 
-
-export default function Contact(){
+ 
+const Contact = () =>{
     return(
-        <div>
-            <Nav/>
-             <main>
+        <>
+            <main>
               <section>
                 <div className="px-4 py-10 md:px-8 lg:px-12 xl:px-24 lg:py-12">
                  <div className="flex flex-col gap-6 md:gap-12">
@@ -16,16 +14,13 @@ export default function Contact(){
                     <h2 className="business-lines-header text-xl sm:text-2xl lg:text-3xl">
                         Contact Us
                     </h2>
-                    {/* <!-- <p className="contact-page-subheader text-sm lg:text-base">
-                    Contact Us Any Time
-                    </p> --> */}
                     </div>
                     <form className="w-full">
                     <div className="flex flex-wrap -mx-3 mb-6">
                         <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                         <label
                             className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                            for="grid-first-name"
+                            htmlFor="grid-first-name"
                         >
                             First Name
                         </label>
@@ -42,7 +37,7 @@ export default function Contact(){
                         <div className="w-full md:w-1/2 px-3">
                         <label
                             className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                            for="grid-last-name"
+                            htmlFor="grid-last-name"
                         >
                             Last Name
                         </label>
@@ -58,7 +53,7 @@ export default function Contact(){
                         <div className="w-full px-3">
                         <label
                             className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                            for="grid-password"
+                            htmlFor="grid-password"
                         >
                             Email Address
                         </label>
@@ -75,7 +70,7 @@ export default function Contact(){
                         <div className="w-full px-3">
                         <label
                             className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                            for="grid-password"
+                            htmlFor="grid-password"
                         >
                             Your Message
                         </label>
@@ -98,7 +93,8 @@ export default function Contact(){
              </div>
             </section>
           </main>
-         <Footer />
-        </div>
+          </>
     );
 }
+
+export default Contact;

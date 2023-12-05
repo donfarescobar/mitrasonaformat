@@ -129,3 +129,120 @@ export const LIABILITY = [
     }
   ];
   
+
+  export const MARINES = [
+    {
+       id : 1,
+       img : require("../assets/images/marine-cargo-insurance.webp"),
+       title : "Marine Cargo", 
+       titleSub : "Marine Cargo Insurance", 
+       description:"Marine cargo insurance covers the risk to goods transported through all means of transportation, land, air or sea. ",
+       path :"marine-cargo-insurance",
+       items: [
+        {
+          titleAttribute: 'Land',
+          desk: 'Truck, Pick Up, Train, etc',
+        },
+        {
+          titleAttribute: 'Sea',
+          desk: 'Tug Boat/ Barge, Steel, Vessel, Steel Tanker, Motorized Sailing Vessel, Wooden Vessel',
+        },
+        {
+          titleAttribute: 'Air',
+          desk: 'Commercial or Cargo Flight'
+        },
+      ]
+   },
+    {
+       id : 2,
+       img : require("../assets/images/marine-hull.webp"),
+       title : "Marine Hull",
+       titleSub : "Marine Hull Insurance",
+       description:"Marine Hull Insurance which is an insurance coverage for the ship’s hull , along with its engines and equipments, against damage or loss that occurs as a result of shipping risks and other marine hazards.",
+       path :"marine-hull-insurance"
+   },
+    {
+       id : 3,
+       img : require("../assets/images/wreck-removal-insurance.webp"),
+       title : "Wreck Removal",
+       titleSub : "Wreck Removal Insurance",
+       description:"Wreck Removal Insurance is an insurance coverage that provides compensation to the shipowner for the removal of wreck and other objects originating from the ship in the event of an accident that causes the ship to sink",
+       path :"wreck-removal-insurance"
+   },
+    {
+       id : 4,
+       img : require("../assets/images/marine-protection.webp"),
+       title : "Marine Protection & Indemnity",
+       titleSub : "Marine Protection & Indemnity",
+       description:"Insurance coverage to ship owners, operators or charterers for legal liability to third parties.",
+       path :"marine-protection-indemnity"
+    }
+   ]
+   
+   
+
+export const ENGINEERING = [
+  {
+    id: 1,
+    img: require("../assets/images/contractor-all.webp"),
+    title: "Contractor's All Risk Insurance",
+    titleSub: "Contractor's All Risk",
+    description :"Insurance policy that provides coverage during construction for property damage and third-party injury or damage due to non-conformity of conditions in the agreement, other than those stated in the policy exeption.",
+    path:"contractor-all-risk",
+  },
+  {
+    id: 2,
+    img: require("../assets/images/electronic-equipment.webp"),
+    title: "Electronic Equipment Insurance",
+    titleSub: "Electronic Equipment",
+    description :"Insurance that provides guarantee or protection against loss or damage to electronic goods / equipment as a result of the risk covered in the policy.",
+    path:"electronic-equipment-insurance",
+    items: [
+      {
+        titleAttribute: 'Benefits',
+        desk: 'Provides guarantee for the costs required to repair broken electronic devices back to working conditions or replace the electronic devices in the event of sudden, unwanted and accidental loss.',
+      }
+    ]
+  },
+  {
+    id: 3,
+    img: require("../assets/images/machinery.webp"),
+    title: "Machinery Breakdown Insurance",
+    titleSub: "Machinery Breakdown",
+    description :"Provides guarantee or protection for loss or damage to machines as a result of the risks guaranteed in the policy.",
+    path:"machinery-breakdown",
+    items: [
+      {
+        titleAttribute: 'Benefits',
+        desk: 'Guarantee for the causes required to repair damaged goods or replace them in the event of sudden, unwanted, an accidental loss.        ',
+      }
+    ]
+  },
+  {
+    id: 4,
+    img: require("../assets/images/heavy-equipment.webp"),
+    title: "Heavy Equipment Insurance",
+    titleSub: "Heavy Equipment",
+    description :"Heavy equipment insurance is an insurance that provides compensation when heavy equipment is damaged and/or lost due to an incident caused by guaranteed risks.",
+    path:"heavy-equipment",
+    atributes:[
+      {
+        title : 'Comprehensive',
+        desk:'Cover the risk of partial or total loss/damage due to the risks covered in the Heavy Equipment Insurance Policy.'
+      },
+      {
+        title : 'Total Loss Only',
+        desk:'Offers protection for the heavy equipment from risks of theft, fire or accident which causes a damage or loss reaching a minimum of 75% of the market price of the equipment.'
+      },
+    ]
+  },
+  {
+    id: 5,
+    img: require("../assets/images/moveable-all.webp"),
+    title: "Moveable All Risk Insurance",
+    titleSub: "Moveable All Risk",
+    description :"Provides guarantees for costs required for repair / return of damaged goods such as before the occurrence of a damage, sudden, unwanted and accidental loss.",
+    path:"moveable-all-risk"
+  },
+  ]
+

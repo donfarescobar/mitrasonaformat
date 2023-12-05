@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { IMAGE } from "../../../assets/images/index";
+import { IMAGE } from "../../assets/images/index";
 
 
 
 
 
-export default function Footer() {
+const  Footer = () => {
   return (
     <>
       <footer className="footer-background">
@@ -113,3 +113,5 @@ export default function Footer() {
     </>
   );
 }
+
+export default Footer;

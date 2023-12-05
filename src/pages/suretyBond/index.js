@@ -1,17 +1,13 @@
 import React from "react";
 
-import Nav from "../../components/molecules/Navbar/Nav"
-import Footer from "../../components/molecules/Footer/Footer"
 import "../../index.css"
 import { IMAGE } from "../../assets/images";
 import { SURETY_BOND } from "../data";
 
 
-function SuretyBond (){
-
+const SuretyBond  = () =>{
     return(
-        <div>
-            <Nav />
+        <>
             <main>
                 <section>
                     <div className="px-4 py-10 md:px-8 lg:px-12 xl:px-24 lg:py-12">
@@ -48,8 +44,7 @@ function SuretyBond (){
                     </div>
                 </section>
               </main>
-            <Footer/>
-        </div>
+              </>
     );
 }
 
